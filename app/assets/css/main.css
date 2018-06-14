@@ -3,6 +3,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif !important;
+    background-image: url(../img/echolink-background.jpg) !important;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #f9f9f9;
 }
 
 .menu {
@@ -160,4 +166,42 @@ input.searchimain {
 
 #connectwarning-dialog {
     width: 900px;
+}
+
+
+nav .navbar-header {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    display: inline-block;
+    padding :7px 0;
+}
+.logo a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    line-height: inherit;
+}
+
+
+
+nav ul.nav li a{
+  padding: 10px 35px;
+}
+
+.table-responsive table {
+  background: rgb(255,255,255);
+  color: #333333;
+}
+
+.fa-cubes,h1 {
+  color: #fff;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    color: #333333;
 }
